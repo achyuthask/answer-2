@@ -1,0 +1,18 @@
+In package.json -it contains basic information about the project.
+                 -It records important metadata about the project.
+                 -and it contains information such as name, description, author, script, and dependencies.
+
+
+package -lock.json  -it is extende version of package.json
+
+
+
+
+Without package.lock.json, there could be some discrepancies in installed versions in various settings. 
+To address this difficulty, package.lock.json is generated to have the same results in any environment. 
+It should be in source control with the package.json file so if any other user will clone the project and install dependencies
+ then it will install the exact same dependencies as in package.lock.json to prevent discrepancies. 
+
+Without package-lock.json, your package may exist.
+You should, however, know what you're doing, and you shouldn't just make things easier or more productive
+ for the sake of making things easier or more effective as long as they function.
